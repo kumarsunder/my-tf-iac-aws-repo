@@ -14,8 +14,8 @@ variable "instance_type" {
 }
 
 variable "security_group" {
-  description = "default"
-  default     = "sg-0079e7522c58b6924"
+  description = "default VPC security group"
+  default     = "sg-094fb982c2734c46c"
 }
 
 variable "tag_name" {
