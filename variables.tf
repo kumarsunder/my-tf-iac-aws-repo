@@ -4,7 +4,7 @@ variable "aws_region" {
 }
 
 variable "key_name" {
-  description = " SSH keys to connect to ec2 instance"
+  description = "SSH keys to connect to ec2 instance"
   default     =  "sundarnew"
 }
 
@@ -14,16 +14,16 @@ variable "instance_type" {
 }
 
 variable "security_group" {
-  description = "launch-wizard-41"
-  default     = "sg-00a2012dc5e3b54bf"
+  description = "default"
+  default     = "sg-0079e7522c58b6924"
 }
 
 variable "tag_name" {
   description = "jenkinsterraform"
-  default     = "my-ec2-instance"
+  default     = "myFirstInstance"
 }
 
 variable "ami_id" {
-  description = "AMI for Ubuntu Ec2 instance"
+  description = "Ubuntu Server 18.04 LTS (HVM), SSD Volume Type"
   default     = "ami-0e472ba40eb589f49"
 }
