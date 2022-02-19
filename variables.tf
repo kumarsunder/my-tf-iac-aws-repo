@@ -5,7 +5,7 @@ variable "aws_region" {
 
 variable "key_name" {
   description = " SSH keys to connect to ec2 instance"
-  default     =  "raju1234"
+  default     =  "sundarnew"
 }
 
 variable "instance_type" {
@@ -15,7 +15,7 @@ variable "instance_type" {
 
 variable "security_group" {
   description = "Name of security group"
-  default     = "sg-00a2012dc5e3b54bf"
+  default     = "sg-0079e7522c58b6924"
 }
 
 variable "tag_name" {
