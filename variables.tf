@@ -14,16 +14,16 @@ variable "instance_type" {
 }
 
 variable "security_group" {
-  description = "Name of security group"
-  default     = "sg-0079e7522c58b6924"
+  description = "launch-wizard-41"
+  default     = "sg-00a2012dc5e3b54bf"
 }
 
 variable "tag_name" {
-  description = "Tag Name of for Ec2 instance"
+  description = "jenkinsterraform"
   default     = "my-ec2-instance"
 }
 
 variable "ami_id" {
   description = "AMI for Ubuntu Ec2 instance"
-  default     = "ami-033b95fb8079dc481"
+  default     = "ami-0e472ba40eb589f49"
 }
